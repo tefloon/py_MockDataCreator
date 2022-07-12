@@ -1,0 +1,501 @@
+Name,Surname,Gender,Address,City
+Monika,Baranowska,F,ul. Globusowa 5,Warszawa
+Regina,Kołodziej,F,ul. Globusowa 17,Warszawa
+Halina,Gajewska,F,al. Jerozolimskie 198S,Warszawa
+Laura,Witkowska,F,al. Jerozolimskie 198R,Warszawa
+Wanda,Pietrzak,F,al. Jerozolimskie 213,Warszawa
+Marcelina,Lis,F,al. Jerozolimskie 212,Warszawa
+Władysława,Adamczyk,F,al. Jerozolimskie 178A,Warszawa
+Izabela,Kwiatkowska,F,al. Jerozolimskie 212A,Warszawa
+Lidia,Krawczyk,F,al. Jerozolimskie 184B,Warszawa
+Iwona,Kaźmierczak,F,ul. Fraszki 16,Warszawa
+Liliana,Janik,F,ul. Fraszki 5,Warszawa
+Jagoda,Baran,F,ul. Fraszki 11,Warszawa
+Anita,Czarnecka,F,ul. Fraszki 3,Warszawa
+Katarzyna,Wróblewska,F,ul. Fraszki 2,Warszawa
+Grażyna,Dąbrowska,F,ul. Fraszki 9,Warszawa
+Weronika,Borkowska,F,ul. Fraszki 29,Warszawa
+Helena,Zając,F,ul. Fraszki 14,Warszawa
+Danuta,Nowakowska,F,ul. Fraszki 12A,Warszawa
+Maria,Nowak,F,al. Jerozolimskie 184A,Warszawa
+Lena,Stępień,F,al. Jerozolimskie 217,Warszawa
+Anna,Szymczak,F,al. Jerozolimskie 195A,Warszawa
+Agata,Szewczyk,F,al. Jerozolimskie 216,Warszawa
+Marianna,Sokołowska,F,al. Jerozolimskie 214,Warszawa
+Kornelia,Rutkowska,F,al. Jerozolimskie 178,Warszawa
+Marta,Jankowska,F,al. Jerozolimskie 192G,Warszawa
+Janina,Wysocka,F,al. Jerozolimskie 198P,Warszawa
+Olga,Lipińska,F,al. Jerozolimskie 198N,Warszawa
+Lucyna,Krupa,F,al. Jerozolimskie 198M,Warszawa
+Stanisława,Czerwińska,F,al. Jerozolimskie 198L,Warszawa
+Barbara,Zawadzka,F,al. Jerozolimskie 198K,Warszawa
+Stefania,Kaczmarczyk,F,ul. Fraszki 21,Warszawa
+Mariola,Chmielewska,F,ul. Fraszki 19,Warszawa
+Beata,Wojciechowska,F,ul. Fraszki 15,Warszawa
+Kamila,Kamińska,F,ul. Fraszki 7,Warszawa
+Jolanta,Adamska,F,ul. Fraszki 21A,Warszawa
+Natalia,Maciejewska,F,ul. Fraszki 20,Warszawa
+Kinga,Szczepańska,F,ul. Globusowa 19,Warszawa
+Pola,Kalinowska,F,ul. Globusowa 20,Warszawa
+Maja,Bąk,F,ul. Globusowa 42,Warszawa
+Iga,Błaszczyk,F,ul. Globusowa 40,Warszawa
+Justyna,Sadowska,F,ul. Globusowa 27,Warszawa
+Małgorzata,Zakrzewska,F,ul. Globusowa 16,Warszawa
+Zofia,Kania,F,ul. Globusowa 12,Warszawa
+Bogumiła,Górecka,F,ul. Globusowa 44,Warszawa
+Aneta,Walczak,F,ul. Globusowa 7,Warszawa
+Renata,Kucharska,F,al. Krakowska 51,Warszawa
+Sandra,Brzezińska,F,al. Krakowska 62,Warszawa
+Milena,Głowacka,F,al. Krakowska 231,Warszawa
+Dominika,Olszewska,F,al. Krakowska 129,Warszawa
+Irena,Mazur,F,al. Krakowska 127,Warszawa
+Ewelina,Wróbel,F,al. Krakowska 157A,Warszawa
+Alina,Zalewska,F,al. Krakowska 236,Warszawa
+Magdalena,Zielińska,F,al. Krakowska 45,Warszawa
+Antonina,Duda,F,al. Krakowska 43,Warszawa
+Nikola,Majewska,F,ul. Fraszki 12,Warszawa
+Paulina,Wasilewska,F,ul. Fraszki 10,Warszawa
+Sabina,Jasińska,F,ul. Galaktyki 19,Warszawa
+Teresa,Sobczak,F,ul. Galaktyki 17,Warszawa
+Mirosława,Włodarczyk,F,ul. Galaktyki 15,Warszawa
+Czesława,Ostrowska,F,ul. Jakobinów 37,Warszawa
+Agnieszka,Kaczmarek,F,ul. Jakobinów 28,Warszawa
+Ilona,Szulc,F,ul. Jamińska 2A,Warszawa
+Nadia,Wójcik,F,ul. Jamińska 14,Warszawa
+Michalina,Lewandowska,F,ul. Jamińska 12,Warszawa
+Kazimiera,Mazurek,F,ul. Jamińska 6A,Warszawa
+Elżbieta,Tomaszewska,F,ul. Janiszowska 13,Warszawa
+Julia,Szymańska,F,ul. Janiszowska 21,Warszawa
+Dorota,Nowicka,F,ul. Janiszowska 11,Warszawa
+Angelika,Ziółkowska,F,ul. Janiszowska 9A,Warszawa
+Łucja,Woźniak,F,ul. Janiszowska 9,Warszawa
+Marzena,Marciniak,F,ul. Janiszowska 3,Warszawa
+Emilia,Sawicka,F,ul. Janiszowska 10A,Warszawa
+Bogusława,Jakubowska,F,ul. Janiszowska 4A,Warszawa
+Wiesława,Górska,F,ul. Janiszowska 19A,Warszawa
+Amelia,Przybylska,F,ul. Janiszowska 28,Warszawa
+Zuzanna,Urbańska,F,ul. Janiszowska 24,Warszawa
+Patrycja,Kozłowska,F,ul. Janiszowska 19,Warszawa
+Gabriela,Kubiak,F,ul. Janiszowska 10,Warszawa
+Sylwia,Szczepaniak,F,ul. Janiszowska 17A,Warszawa
+Genowefa,Makowska,F,ul. Janiszowska 14,Warszawa
+Krystyna,Grabowska,F,ul. Janiszowska 29A,Warszawa
+Aniela,Michalak,F,ul. Janiszowska 29,Warszawa
+Henryka,Wiśniewska,F,ul. Kleszczowa 3,Warszawa
+Edyta,Kowalczyk,F,ul. Kleszczowa 43,Warszawa
+Józefa,Pawłowska,F,ul. Kleszczowa 5A,Warszawa
+Wiktoria,Kowalska,F,ul. Kleszczowa 41B,Warszawa
+Alicja,Leszczyńska,F,ul. Kleszczowa 5,Warszawa
+Karolina,Dudek,F,ul. Kleszczowa 37A,Warszawa
+Nina,Sikorska,F,ul. Kleszczowa 15,Warszawa
+Oliwia,Krajewska,F,ul. Kleszczowa 17E,Warszawa
+Wioletta,Piotrowska,F,ul. Kleszczowa 27,Warszawa
+Urszula,Pawlak,F,ul. Kleszczowa 7,Warszawa
+Aleksandra,Wilk,F,ul. Kleszczowa 17,Warszawa
+Hanna,Michalska,F,ul. Kleszczowa 8A,Warszawa
+Adrianna,Borowska,F,ul. Kleszczowa 8,Warszawa
+Marlena,Sikora,F,ul. Kleszczowa 6C,Warszawa
+Daria,Chojnacka,F,ul. Kleszczowa 29,Warszawa
+Klaudia,Laskowska,F,ul. Kleszczowa 17C,Warszawa
+Wioleta,Wieczorek,F,ul. Kleszczowa 4,Warszawa
+Jadwiga,Malinowska,F,ul. Kleszczowa 13,Warszawa
+Ewa,Jaworska,F,ul. Kleszczowa 6,Warszawa
+Martyna,Król,F,ul. Kleszczowa 19,Warszawa
+Joanna,Mróz,F,ul. Kleszczowa 14,Warszawa
+Bożena,Jabłońska,F,ul. Kleszczowa 31,Warszawa
+Edmund,Stefański,M,ul. Kleszczowa 31,Warszawa
+Borys,Domański,M,ul. Kleszczowa 33,Warszawa
+Kasper,Lisowski,M,al. Krakowska 193,Warszawa
+Adolf,Jędrzejewski,M,al. Krakowska 255,Warszawa
+Daniel,Lewicki,M,al. Krakowska 131A,Warszawa
+Vitali,Brzozowski,M,al. Krakowska 187,Warszawa
+Marcel,Kowal,M,al. Krakowska 93,Warszawa
+Alojzy,Jarosz,M,al. Krakowska 149,Warszawa
+Alexandru,Czarnecki,M,al. Krakowska 115A,Warszawa
+Bronisław,Romanowski,M,al. Krakowska 115,Warszawa
+Helmut,Frąckowiak,M,al. Krakowska 257,Warszawa
+Alfred,Sroka,M,al. Krakowska 214,Warszawa
+Mark,Kaczyński,M,al. Krakowska 145,Warszawa
+Victor,Szczepański,M,al. Krakowska 25,Warszawa
+Serghei,Świderski,M,ul. Kleszczowa 29A,Warszawa
+Władysław,Zając,M,ul. Kleszczowa 11,Warszawa
+Olgierd,Podgórski,M,ul. Kleszczowa 2,Warszawa
+Erwin,Grochowski,M,ul. Kleszczowa 22,Warszawa
+Jonasz,Banasiak,M,ul. Kleszczowa 1A,Warszawa
+Andreas,Białek,M,ul. Kleszczowa 39,Warszawa
+Anatol,Olejniczak,M,ul. Kleszczowa 17D,Warszawa
+Robert,Andrzejewski,M,ul. Kleszczowa 16,Warszawa
+Milan,Morawski,M,ul. Kleszczowa 14A,Warszawa
+Janusz,Wnuk,M,al. Krakowska 40,Warszawa
+Karol,Olejnik,M,ul. Galaktyki 13,Warszawa
+Fedir,Mikulski,M,ul. Galaktyki 11,Warszawa
+Jonathan,Kacprzak,M,ul. Galaktyki 9,Warszawa
+Roland,Staniszewski,M,ul. Galaktyki 7,Warszawa
+Anthony,Małecki,M,ul. Galaktyki 5,Warszawa
+Liubomyr,Mazurek,M,ul. Galaktyki 23,Warszawa
+Kuba,Hajduk,M,ul. Galaktyki 1,Warszawa
+Klaudiusz,Janowski,M,ul. Galaktyki 3,Warszawa
+Alfons,Cieślak,M,ul. Galaktyki 31,Warszawa
+Ihar,Biernat,M,ul. Galaktyki 29,Warszawa
+Patrick,Bagiński,M,ul. Galaktyki 27,Warszawa
+Ali,Muszyński,M,ul. Galaktyki 25,Warszawa
+Gracjan,Gołębiowski,M,ul. Galaktyki 21,Warszawa
+Horst,Mucha,M,ul. Geologiczna 11,Warszawa
+Bogdan,Karpiński,M,ul. Geologiczna 18,Warszawa
+Andrei,Kołodziej,M,ul. Geologiczna 4,Warszawa
+Ignacy,Tomczak,M,ul. Geologiczna 10,Warszawa
+Kosma,Maćkowiak,M,ul. Geologiczna 12A,Warszawa
+Stefan,Bąk,M,ul. Geologiczna 3,Warszawa
+Eliasz,Mielczarek,M,ul. Geologiczna 1,Warszawa
+Ksawier,Klimczak,M,ul. Geologiczna 20,Warszawa
+Sławomir,Filipiak,M,ul. Geologiczna 16,Warszawa
+Rudolf,Ratajczak,M,ul. Geologiczna 15,Warszawa
+Miron,Wierzbicki,M,ul. Janiszowska 9B,Warszawa
+James,Kaleta,M,ul. Janiszowska 8,Warszawa
+Jeremiasz,Czaja,M,ul. Janiszowska 6,Warszawa
+Nicolas,Kaczmarczyk,M,ul. Janiszowska 4,Warszawa
+Markus,Sadowski,M,ul. Janiszowska 17,Warszawa
+Serhiy,Krzyżanowski,M,ul. Janiszowska 31,Warszawa
+Ihor,Osiński,M,ul. Janiszowska 30,Warszawa
+Aleksandr,Kwiecień,M,ul. Janiszowska 16,Warszawa
+Uladzimir,Sobolewski,M,ul. Janiszowska 12,Warszawa
+Thomas,Czech,M,ul. Janiszowska 23A,Warszawa
+Krzysztof,Książek,M,ul. Janiszowska 33,Warszawa
+Lechosław,Kisiel,M,ul. Janiszowska 15,Warszawa
+Joseph,Barański,M,ul. Janiszowska 13A,Warszawa
+Brayan,Wróblewski,M,ul. Janiszowska 22,Warszawa
+Ernest,Popławski,M,ul. Janiszowska 18,Warszawa
+Valentyn,Kędzierski,M,ul. Janiszowska 25,Warszawa
+Kordian,Piątek,M,ul. Janiszowska 23,Warszawa
+Olaf,Sobczak,M,ul. Janiszowska 35,Warszawa
+Mario,Kujawa,M,ul. Janiszowska 27A,Warszawa
+Henryk,Czajkowski,M,ul. Janiszowska 27,Warszawa
+Jacob,Gałązka,M,ul. Janiszowska 28A,Warszawa
+Nathan,Włodarczyk,M,ul. Janiszowska 12A,Warszawa
+Yauheni,Jabłoński,M,ul. Janiszowska 5,Warszawa
+Jonatan,Jurek,M,ul. Kleszczowa 31A,Warszawa
+Feliks,Pawłowski,M,ul. Kleszczowa 41,Warszawa
+Valerii,Zawada,M,ul. Kleszczowa 2A,Warszawa
+Amadeusz,Kasprzyk,M,ul. Kleszczowa 24,Warszawa
+Petro,Skowron,M,ul. Kleszczowa 26,Warszawa
+Aleks,Król,M,ul. Kleszczowa 18,Warszawa
+Aleksy,Wysocki,M,ul. Kleszczowa 21A,Warszawa
+Nazar,Kruk,M,ul. Jantar 3,Warszawa
+Patrycjusz,Wolny,M,ul. Jantar 32,Warszawa
+Oliver,Nowak,M,ul. Jantar 28,Warszawa
+Maxim,Kucharczyk,M,ul. Jantar 28A,Warszawa
+Bernard,Bochenek,M,ul. Jantar 4,Warszawa
+Maksymilian,Marczak,M,ul. Jantar 21,Warszawa
+Szymon,Stańczyk,M,ul. Jantar 20,Warszawa
+Anatolii,Grzelak,M,ul. Jantar 7,Warszawa
+Marceli,Rojek,M,ul. Jantar 13,Warszawa
+Kazimierz,Kania,M,ul. Kleszczowa 28,Warszawa
+Zdzisław,Kurowski,M,ul. Kleszczowa 9,Warszawa
+Gerhard,Konopka,M,ul. Kleszczowa 3A,Warszawa
+Jarosław,Sawicki,M,ul. Kleszczowa 26B,Warszawa
+Mariusz,Kubik,M,ul. Kleszczowa 1B,Warszawa
+Maks,Marciniak,M,ul. Kleszczowa 17B,Warszawa
+Cyprian,Piasecki,M,ul. Kleszczowa 41A,Warszawa
+Walter,Różycki,M,al. Krakowska 39,Warszawa
+Mihail,Wróbel,M,al. Krakowska 38,Warszawa
+Myroslav,Witkowski,M,al. Krakowska 22,Warszawa
+Roger,Śliwiński,M,al. Krakowska 19,Warszawa
+Eugeniusz,Lipski,M,al. Krakowska 14,Warszawa
+Wilhelm,Rosiński,M,al. Krakowska 216,Warszawa
+Nikolas,Serafin,M,al. Krakowska 123,Warszawa
+Gustaw,Zaborowski,M,al. Krakowska 271,Warszawa
+Hieronim,Kowalik,M,al. Krakowska 2A,Warszawa
+Łukasz,Świątek,M,al. Krakowska 269,Warszawa
+Aleksander,Bielecki,M,al. Krakowska 131,Warszawa
+Lucas,Śliwa,M,al. Krakowska 226,Warszawa
+Artem,Michalak,M,al. Krakowska 10,Warszawa
+Wojciech,Kamiński,M,al. Krakowska 289,Warszawa
+Aaron,Żurawski,M,al. Krakowska 81,Warszawa
+Nikita,Rak,M,al. Krakowska 75,Warszawa
+Łucjan,Dąbrowski,M,al. Krakowska 48/52,Warszawa
+Kornel,Węgrzyn,M,al. Krakowska 91,Warszawa
+Marcin,Marszałek,M,al. Krakowska 218,Warszawa
+Ziemowit,Klimek,M,al. Krakowska 215,Warszawa
+Arnold,Szczęsny,M,al. Krakowska 217,Warszawa
+Lukas,Kubiak,M,al. Krakowska 212,Warszawa
+Artsiom,Szewczyk,M,ul. Geologiczna 9,Warszawa
+Serhii,Winiarski,M,ul. Geologiczna 12,Warszawa
+Leo,Mazur,M,ul. Geologiczna 8A,Warszawa
+Oktawian,Rogowski,M,ul. Geologiczna 7A,Warszawa
+Antoni,Ziółkowski,M,ul. Geologiczna 7,Warszawa
+Oleksii,Bogusz,M,ul. Geologiczna 5A,Warszawa
+Ginter,Dobrowolski,M,ul. Geologiczna 5,Warszawa
+Klemens,Tomczyk,M,ul. Geologiczna 13,Warszawa
+David,Bednarek,M,ul. Bolesława Gidzińskiego 5A,Warszawa
+Albert,Skrzypczak,M,ul. Bolesława Gidzińskiego 43,Warszawa
+Rafał,Janus,M,ul. Bolesława Gidzińskiego 8A,Warszawa
+Daniil,Szczygieł,M,ul. Bolesława Gidzińskiego 23,Warszawa
+Emil,Szczepaniak,M,ul. Bolesława Gidzińskiego 15,Warszawa
+Lech,Kmiecik,M,ul. Bolesława Gidzińskiego 2,Warszawa
+Vadzim,Wawrzyniak,M,ul. Bolesława Gidzińskiego 4,Warszawa
+Wacław,Rybak,M,ul. Bolesława Gidzińskiego 6,Warszawa
+Yevhenii,Przybyła,M,ul. Bolesława Gidzińskiego 8,Warszawa
+Julian,Urban,M,ul. Bolesława Gidzińskiego 10,Warszawa
+Alexandr,Kuczyński,M,ul. Bolesława Gidzińskiego 20,Warszawa
+Michael,Wesołowski,M,ul. Bolesława Gidzińskiego 22,Warszawa
+Mieszko,Kopeć,M,ul. Bolesława Gidzińskiego 24,Warszawa
+Damian,Urbański,M,ul. Janka Muzykanta 4,Warszawa
+Juliusz,Borowski,M,ul. Janka Muzykanta 5,Warszawa
+Tadeusz,Kozak,M,ul. Janka Muzykanta 1B,Warszawa
+Dominik,Skowroński,M,ul. Janka Muzykanta 1A,Warszawa
+Samuel,Łuczak,M,ul. Janka Muzykanta 1,Warszawa
+Zbigniew,Rogala,M,ul. Janka Muzykanta 19,Warszawa
+Rostyslav,Niewiadomski,M,ul. Janka Muzykanta 60,Warszawa
+Bolesław,Cieśla,M,ul. Janka Muzykanta 3,Warszawa
+Artur,Gąsior,M,ul. Janka Muzykanta 6,Warszawa
+Brunon,Piekarski,M,ul. Jantar 17,Warszawa
+Bohdan,Sokołowski,M,ul. Jantar 19,Warszawa
+Andriy,Szulc,M,ul. Jantar 8,Warszawa
+Kostiantyn,Ostrowski,M,ul. Jantar 14,Warszawa
+Fabian,Czyż,M,ul. Bolesława Gidzińskiego 40,Warszawa
+Kasjan,Biernacki,M,ul. Bolesława Gidzińskiego 40A,Warszawa
+Pavel,Stachowiak,M,ul. Bolesława Gidzińskiego 42,Warszawa
+Marian,Wilczyński,M,ul. Bolesława Gidzińskiego 46,Warszawa
+Aliaksei,Słowik,M,ul. Bolesława Gidzińskiego 39,Warszawa
+Kacper,Pietrzyk,M,ul. Bolesława Gidzińskiego 33,Warszawa
+Hryhorii,Szymański,M,ul. Bolesława Gidzińskiego 31,Warszawa
+Andrew,Chojnacki,M,ul. Bolesława Gidzińskiego 29,Warszawa
+Manfred,Bukowski,M,ul. Bolesława Gidzińskiego 27A,Warszawa
+Nazarii,Woźniak,M,ul. Jantar 10,Warszawa
+Tymoteusz,Tokarski,M,ul. Jantar 23,Warszawa
+Augustyn,Janicki,M,ul. Kleszczowa 41C,Warszawa
+Sergiusz,Gołębiewski,M,ul. Kleszczowa 41D,Warszawa
+Grzegorz,Kurek,M,ul. Kleszczowa 41E,Warszawa
+Leszek,Kulesza,M,ul. Kleszczowa 6D,Warszawa
+Filip,Smoliński,M,ul. Kleszczowa 17A,Warszawa
+Ruslan,Sosnowski,M,ul. Klinkierowa 10,Warszawa
+Maurycy,Wolski,M,ul. Klinkierowa 4,Warszawa
+Wiktor,Sienkiewicz,M,ul. Klinkierowa 8,Warszawa
+Davyd,Maj,M,ul. Klinkierowa 6,Warszawa
+Stanislav,Zaremba,M,ul. Klinkierowa 2,Warszawa
+Jędrzej,Leśniak,M,ul. Klinkierowa 1,Warszawa
+Jacenty,Górny,M,ul. Klinkierowa 5,Warszawa
+Wiesław,Antczak,M,ul. Klinkierowa 3,Warszawa
+Valery,Tomaszewski,M,ul. Klinkierowa 12,Warszawa
+Igor,Markowski,M,ul. Klinowa 4,Warszawa
+Sebastian,Witek,M,ul. Klinowa 3,Warszawa
+Bruno,Borek,M,ul. Klinowa 5,Warszawa
+Sergii,Sowa,M,ul. Kolneńska 8,Warszawa
+Bartosz,Przybysz,M,ul. Kolneńska 6,Warszawa
+Sergiy,Grzybowski,M,ul. Kolneńska 6C,Warszawa
+Wawrzyniec,Bieniek,M,ul. Kolneńska 12,Warszawa
+Yuriy,Polak,M,ul. Kolneńska 4,Warszawa
+Michał,Konieczny,M,ul. Kolneńska 10,Warszawa
+Konstanty,Stefaniak,M,ul. Kolneńska 21,Warszawa
+Anatoli,Pawelec,M,al. Krakowska 208,Warszawa
+Ryszard,Bednarz,M,al. Krakowska 206,Warszawa
+Marek,Maliszewski,M,al. Krakowska 2,Warszawa
+Max,Grzyb,M,al. Krakowska 177,Warszawa
+Szczepan,Kozłowski,M,al. Krakowska 175,Warszawa
+Wincenty,Borkowski,M,al. Krakowska 173,Warszawa
+Romuald,Stankiewicz,M,al. Krakowska 17,Warszawa
+Alex,Janiak,M,al. Krakowska 16A,Warszawa
+Ksawery,Majewski,M,al. Krakowska 16,Warszawa
+Gabriel,Kuś,M,al. Krakowska 16B,Warszawa
+Radomir,Rybicki,M,al. Krakowska 157,Warszawa
+Anton,Chrzanowski,M,al. Krakowska 155,Warszawa
+Ludwik,Jastrzębski,M,al. Krakowska 15,Warszawa
+Andrii,Socha,M,al. Krakowska 107,Warszawa
+Yaroslav,Rutkowski,M,al. Krakowska 41A,Warszawa
+Mohamed,Szymczyk,M,al. Krakowska 4/6,Warszawa
+Paweł,Nowakowski,M,al. Krakowska 240/242,Warszawa
+Yevhen,Drozd,M,al. Krakowska 222,Warszawa
+Yurii,Walkowiak,M,al. Krakowska 103,Warszawa
+Oliwer,Krawczyk,M,al. Krakowska 121,Warszawa
+Ivan,Orłowski,M,al. Krakowska 113A,Warszawa
+Ariel,Leśniewski,M,al. Krakowska 110/114,Warszawa
+Kyrylo,Mazurkiewicz,M,ul. Bolesława Gidzińskiego 24A,Warszawa
+Maksym,Jakubowski,M,ul. Bolesława Gidzińskiego 26,Warszawa
+Mateusz,Kozioł,M,ul. Bolesława Gidzińskiego 28,Warszawa
+Mykhailo,Matysiak,M,ul. Bolesława Gidzińskiego 34,Warszawa
+Eryk,Piątkowski,M,ul. Bolesława Gidzińskiego 36,Warszawa
+Miłosz,Chmielewski,M,ul. Bolesława Gidzińskiego 38,Warszawa
+Dorian,Żebrowski,M,ul. Józefa Ignacego Kraszewskiego 13,Warszawa
+Zygfryd,Lipiński,M,ul. Józefa Ignacego Kraszewskiego 54,Warszawa
+Eduard,Janik,M,ul. Józefa Ignacego Kraszewskiego 2,Warszawa
+Marko,Piotrowski,M,ul. Józefa Ignacego Kraszewskiego 51,Warszawa
+Tymon,Zaręba,M,ul. Józefa Ignacego Kraszewskiego 45,Warszawa
+Nicholas,Mikołajczak,M,ul. Józefa Ignacego Kraszewskiego 5,Warszawa
+Remigiusz,Cichoń,M,ul. Józefa Ignacego Kraszewskiego 19,Warszawa
+Aron,Owczarek,M,ul. Józefa Ignacego Kraszewskiego 39,Warszawa
+Aliaksandr,Trzciński,M,ul. Józefa Ignacego Kraszewskiego 25,Warszawa
+Adrian,Białas,M,ul. Bolesława Gidzińskiego 27,Warszawa
+Xavier,Malinowski,M,ul. Bolesława Gidzińskiego 25,Warszawa
+Pascal,Marek,M,ul. Bolesława Gidzińskiego 21,Warszawa
+Piotr,Wieczorek,M,ul. Bolesława Gidzińskiego 19,Warszawa
+Mieczysław,Błaszczyk,M,ul. Bolesława Gidzińskiego 17,Warszawa
+Rajmund,Gawron,M,ul. Bolesława Gidzińskiego 9,Warszawa
+Walenty,Dudek,M,ul. Jantar 18,Warszawa
+Mirosław,Dziedzic,M,ul. Jantar 26,Warszawa
+Mikita,Sikora,M,ul. Jantar 22,Warszawa
+Leopold,Łukasik,M,ul. Jantar 6,Warszawa
+Dionizy,Michalski,M,ul. Jantar 5,Warszawa
+Zbysław,Lach,M,ul. Jantar 30,Warszawa
+Leonid,Kostrzewa,M,ul. Jantar 2,Warszawa
+Alexander,Brzeziński,M,ul. Jantar 15,Warszawa
+Oliwier,Leszczyński,M,ul. Jantar 11,Warszawa
+Natan,Lech,M,ul. Jantar 3A,Warszawa
+Lucjan,Długosz,M,ul. Jantar 16,Warszawa
+Taras,Cieślik,M,ul. Jantar 12,Warszawa
+Mikalai,Paluch,M,ul. Jantar 9,Warszawa
+Kamil,Górski,M,ul. Jantar 24,Warszawa
+Sviatoslav,Jaworski,M,al. Jerozolimskie 172,Warszawa
+Philip,Sokół,M,al. Jerozolimskie 200A,Warszawa
+Alan,Zalewski,M,al. Jerozolimskie 202A,Warszawa
+Józef,Zięba,M,al. Jerozolimskie 204,Warszawa
+Danylo,Kowalewski,M,al. Jerozolimskie 202,Warszawa
+Jan,Kalinowski,M,al. Jerozolimskie 200,Warszawa
+Fryderyk,Kozieł,M,al. Jerozolimskie 193,Warszawa
+Ewald,Zych,M,al. Jerozolimskie 184,Warszawa
+Bogusław,Duda,M,al. Jerozolimskie 211,Warszawa
+Maximilian,Godlewski,M,ul. Kolneńska 19,Warszawa
+Jakub,Mikołajczyk,M,ul. Kolneńska 3,Warszawa
+Hubert,Głowacki,M,ul. Kolneńska 6B,Warszawa
+Pavlo,Gajda,M,ul. Kolneńska 14,Warszawa
+Jaromir,Krupa,M,ul. Kolneńska 18,Warszawa
+Marco,Rakowski,M,ul. Kolneńska 17,Warszawa
+Kiryl,Jankowski,M,ul. Kolneńska 7,Warszawa
+Leonard,Górka,M,ul. Kolneńska 5,Warszawa
+Volodymyr,Szczepanik,M,ul. Kolneńska 15,Warszawa
+Vladimir,Nowicki,M,ul. Kolneńska 13,Warszawa
+Ireneusz,Chmiel,M,ul. Kolneńska 16,Warszawa
+Teofil,Madej,M,ul. Kolneńska 9,Warszawa
+Dzmitry,Makowski,M,ul. Kolneńska 11,Warszawa
+Mykyta,Karwowski,M,ul. Krzysztofa Kolumba 17,Warszawa
+Martin,Gawlik,M,ul. Krzysztofa Kolumba 21,Warszawa
+Walerian,Tkaczyk,M,ul. Krzysztofa Kolumba 8,Warszawa
+Oleh,Zawadzki,M,ul. Krzysztofa Kolumba 11,Warszawa
+Illia,Karczewski,M,ul. Krzysztofa Kolumba 25,Warszawa
+Juan,Bednarski,M,ul. Krzysztofa Kolumba 4A,Warszawa
+Roman,Stępień,M,ul. Krzysztofa Kolumba 6,Warszawa
+Yehor,Michalik,M,ul. Krzysztofa Kolumba 61,Warszawa
+Joachim,Cybulski,M,ul. Krzysztofa Kolumba 29,Warszawa
+Hugo,Krajewski,M,ul. Krzysztofa Kolumba 16,Warszawa
+Teodor,Dobosz,M,ul. Krzysztofa Kolumba 57,Warszawa
+Longin,Zarzycki,M,al. Krakowska 109A,Warszawa
+Nikodem,Olszewski,M,al. Krakowska 106,Warszawa
+Izydor,Lewandowski,M,al. Krakowska 102,Warszawa
+Ferdynand,Gawroński,M,al. Krakowska 100B,Warszawa
+Vadym,Królikowski,M,al. Krakowska 100A,Warszawa
+Andrzej,Stec,M,ul. Józefa Ignacego Kraszewskiego 33,Warszawa
+Vitalii,Grzesiak,M,ul. Józefa Ignacego Kraszewskiego 31,Warszawa
+Przemysław,Kula,M,ul. Józefa Ignacego Kraszewskiego 20A,Warszawa
+Dzianis,Ciesielski,M,ul. Józefa Ignacego Kraszewskiego 11A,Warszawa
+Norbert,Wiśniewski,M,ul. Józefa Ignacego Kraszewskiego 38,Warszawa
+Maksim,Rogalski,M,ul. Nike 38,Warszawa
+Dawid,Ptak,M,ul. Nike 16A,Warszawa
+Radosław,Grzegorczyk,M,ul. Nike 43,Warszawa
+Christopher,Żukowski,M,ul. Nike 15,Warszawa
+Patryk,Kulik,M,ul. Nike 21,Warszawa
+Mykhaylo,Wójcik,M,ul. Nike 30,Warszawa
+Roch,Rzepka,M,ul. Nike 27,Warszawa
+Albin,Małek,M,ul. Nike 34/36,Warszawa
+Viktar,Milewski,M,ul. Nike 13,Warszawa
+William,Markiewicz,M,ul. Józefa Ignacego Kraszewskiego 22,Warszawa
+Cezary,Krawiec,M,ul. Bolesława Gidzińskiego 7,Warszawa
+Witold,Marcinkowski,M,ul. Bolesława Gidzińskiego 5,Warszawa
+Dariusz,Kowalski,M,ul. Bolesława Gidzińskiego 3,Warszawa
+Mikhail,Bartkowiak,M,ul. Bolesława Gidzińskiego 1A,Warszawa
+Vasyl,Radomski,M,ul. Bolesława Gidzińskiego 1B,Warszawa
+Diego,Kłos,M,ul. Bolesława Gidzińskiego 1,Warszawa
+Kevin,Skiba,M,ul. Globusowa 24,Warszawa
+Florian,Sikorski,M,ul. Globusowa 8,Warszawa
+Christian,Czerwiński,M,ul. Globusowa 23,Warszawa
+Antonio,Strzelecki,M,ul. Globusowa 46,Warszawa
+Korneliusz,Kaczorowski,M,ul. Globusowa 38,Warszawa
+Kajetan,Pawlak,M,ul. Globusowa 13,Warszawa
+Oskar,Frankowski,M,ul. Przyłęcka 10,Warszawa
+Viacheslav,Przybylski,M,ul. Przyłęcka 8,Warszawa
+Aleh,Baranowski,M,ul. Przyłęcka 17,Warszawa
+Ilya,Kaźmierczak,M,ul. Mikołajska 7B,Warszawa
+Krystian,Adamski,M,ul. Mikołajska 11A,Warszawa
+Orest,Żak,M,ul. Mikołajska 18,Warszawa
+Oleg,Matusiak,M,ul. Mikołajska 16,Warszawa
+Gerard,Pietrzak,M,ul. Mikołajska 15,Warszawa
+Davit,Szydłowski,M,ul. Mikołajska 13,Warszawa
+Lesław,Adamczyk,M,ul. Mikołajska 11,Warszawa
+Mykola,Turek,M,ul. Mikołajska 24,Warszawa
+Bartłomiej,Banach,M,ul. Mikołajska 8A,Warszawa
+Franciszek,Kosiński,M,ul. Mikołajska 22,Warszawa
+Yan,Gil,M,ul. Mikołajska 35,Warszawa
+Paul,Trojanowski,M,ul. Mikołajska 39,Warszawa
+Benjamin,Szymczak,M,ul. Mikołajska 29,Warszawa
+Uladzislau,Wójtowicz,M,ul. Mikołajska 8,Warszawa
+Dennis,Witczak,M,ul. Mikołajska 38B,Warszawa
+Tobiasz,Kubicki,M,ul. Mikołajska 38C,Warszawa
+Frank,Malec,M,ul. Milanowska 14,Warszawa
+Denis,Młynarczyk,M,ul. Milanowska 20A,Warszawa
+Richard,Gajewski,M,ul. Milanowska 22,Warszawa
+Emilian,Rudnicki,M,ul. Milanowska 19,Warszawa
+Adam,Kaczor,M,ul. Milanowska 9,Warszawa
+Stanisław,Kowalczyk,M,ul. Milanowska 10,Warszawa
+Stepan,Stasiak,M,ul. Milanowska 12A,Warszawa
+Sylwester,Majchrzak,M,ul. Nike 24,Warszawa
+Herbert,Różański,M,ul. Nike 11,Warszawa
+Vladyslav,Kasprzak,M,ul. Nike 25,Warszawa
+Olivier,Zieliński,M,ul. Nike 39,Warszawa
+Maciej,Nawrocki,M,ul. Nike 39A,Warszawa
+Dominic,Cichocki,M,ul. Nike 29,Warszawa
+Denys,Sobczyk,M,ul. Nike 26,Warszawa
+Peter,Laskowski,M,ul. Nike 31,Warszawa
+Giorgi,Wilk,M,ul. Nike 47,Warszawa
+Kewin,Jóźwiak,M,ul. Nike 43A,Warszawa
+Jordan,Lis,M,ul. Nike 22,Warszawa
+Bogumił,Murawski,M,ul. Nike 16,Warszawa
+Oscar,Janiszewski,M,ul. Nike 6,Warszawa
+Waldemar,Krzemiński,M,ul. Nike 41A,Warszawa
+Leon,Pluta,M,ul. Nike 41,Warszawa
+Leonardo,Kot,M,ul. Płomyka 58,Warszawa
+Emanuel,Maciejewski,M,ul. Płomyka 2,Warszawa
+Simon,Wrona,M,ul. Płomyka 54,Warszawa
+Carlos,Panek,M,ul. Płomyka 29,Warszawa
+Bazyli,Grabowski,M,ul. Płomyka 1,Warszawa
+Beniamin,Urbaniak,M,ul. Płomyka 43,Warszawa
+Zenon,Kwiatkowski,M,ul. Płomyka 11B,Warszawa
+Konrad,Baran,M,ul. Płomyka 11A,Warszawa
+Zygmunt,Ślusarczyk,M,ul. Płomyka 13,Warszawa
+Hennadii,Matuszewski,M,ul. Nike 9,Warszawa
+Eligiusz,Komorowski,M,ul. Nike 17,Warszawa
+Jacek,Mróz,M,ul. Nike 19,Warszawa
+Nataniel,Górecki,M,ul. Nike 35,Warszawa
+Arkadiusz,Orzechowski,M,ul. Popularna 48,Warszawa
+Vitaliy,Banaś,M,ul. Popularna 34A,Warszawa
+Ahmed,Jasiński,M,ul. Popularna 41,Warszawa
+Błażej,Pająk,M,ul. Popularna 17A,Warszawa
+Yury,Wąsik,M,ul. Popularna 15A,Warszawa
+Raman,Bednarczyk,M,ul. Popularna 55,Warszawa
+Matthew,Pawlik,M,ul. Popularna 64,Warszawa
+Viktor,Kaczmarek,M,ul. Popularna 72,Warszawa
+Kryspin,Domagała,M,ul. Popularna 30,Warszawa
+Seweryn,Zakrzewski,M,ul. Popularna 16,Warszawa
+Iurii,Mika,M,ul. Popularna 18,Warszawa
+Arthur,Wojciechowski,M,ul. Popularna 43,Warszawa
+Wit,Wasilewski,M,ul. Popularna 24,Warszawa
+Jeremi,Buczek,M,ul. Popularna 14,Warszawa
+Vincent,Siwek,M,ul. Popularna 31,Warszawa
+Oleksandr,Niemiec,M,ul. Popularna 29,Warszawa
+Ion,Musiał,M,ul. Popularna 23,Warszawa
+Dmytro,Góra,M,ul. Popularna 58,Warszawa
+Siarhei,Gruszka,M,ul. Popularna 43A,Warszawa
+Benedykt,Dębski,M,ul. Popularna 47,Warszawa
+Czesław,Michałowski,M,ul. Popularna 45,Warszawa
+Brajan,Augustyniak,M,ul. Popularna 40,Warszawa
+Werner,Szostak,M,ul. Popularna 71,Warszawa
+Erik,Czajka,M,ul. Popularna 60,Warszawa
+Tomasz,Marzec,M,ul. Popularna 54,Warszawa
+Włodzimierz,Walczak,M,ul. Płomyka 42,Warszawa
+Rafael,Nowacki,M,ul. Płomyka 40,Warszawa
+Tytus,Graczyk,M,ul. Płomyka 38,Warszawa
+Iwo,Kucharski,M,ul. Płomyka 36,Warszawa
+Jerzy,Sowiński,M,ul. Płomyka 32,Warszawa
+John,Kołodziejczyk,M,ul. Płomyka 30,Warszawa
+Edward,Pałka,M,ul. Płomyka 28,Warszawa
+Brian,Frączek,M,ul. Płomyka 26,Warszawa
+Edwin,Bartczak,M,ul. Płomyka 24,Warszawa
+Eric,Żurek,M,ul. Płomyka 22,Warszawa
+Mikołaj,Bogucki,M,ul. Płomyka 31,Warszawa
