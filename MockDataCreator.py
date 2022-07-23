@@ -2,8 +2,10 @@ import csv
 import os
 import random
 import json
+import yaml
+import hashlib as hl
 
-outFileName = 'result.csv'
+outFileName = 'results'
 dataDirName = 'Data'
 dataDir = os.path.join(os.getcwd(), dataDirName)
 
@@ -85,7 +87,7 @@ def CreateSurnames(sex, n):
 	return surnames
 
 def CreateDataSet(n):
-	numM = random.randrange(n)
+	numM = random.randrange(n//4, (3*n)//4)
 	numF = n - numM
 
 	data = []
@@ -101,24 +103,26 @@ def CreateDataSet(n):
 	i = 0
 
 	for i in range(numF):
-		item = [ nameF[i], surnF[i], 'F', adr[i], city[i]]
+		ha = hl.sha1((f"{nameF[i]}{surnF[i]}").encode()).hexdigest()
+		item = [ nameF[i], surnF[i], 'F', adr[i], city[i], ha]
 		data.append(item)
 
 	for j in range(numM):
-		item = [ nameM[j], surnM[j], 'M', adr[i], city[i]]
-		i += 1
+		ha = hl.sha1((f"{nameM[j]}{surnM[j]}").encode()).hexdigest()
+		item = [ nameM[j], surnM[j], 'M', adr[j], city[j], ha]
 		data.append(item)
+		i += 1
 
 	return data
 
 #  Creating mock data
 # ====================
-data = CreateDataSet(500)
+data = sorted(CreateDataSet(500), key = lambda x: random.random() )
 
 #  Writing data as csv
 # =====================
-fields = ['Name', 'Surname', 'Gender', 'Address', 'City']
-with open(outFileName, "w", encoding='UTF-8', newline='') as csvfile:
+fields = ['name', 'surname', 'gender', 'address', 'city', 'hash']
+with open(f"{outFileName}.csv", "w", encoding='UTF-8', newline='') as csvfile:
     # creating a csv writer object 
     csvwriter = csv.writer(csvfile) 
         
@@ -130,19 +134,24 @@ with open(outFileName, "w", encoding='UTF-8', newline='') as csvfile:
 
 #  Creating dictionary
 # =====================
-dataDict = {'students': []}
+dataDict = []
 
 for i in range(len(data)):
 	person = {
-		'name': data[i][0],
-		'surname': data[i][1],
-		'gender': data[i][2],
-		'address': data[i][3],
-		'city': data[i][4]
+		"id": i+1,
+		"name": data[i][0],
+		"surname": data[i][1],
+		"gender": data[i][2],
+		"address": data[i][3],
+		"city": data[i][4],
+		"hash": data[i][5]
 	}
-	dataDict['students'].append(person)
+	dataDict.append(person)
 
 #  Writing data as json
 # ======================
-with open("result.json", "w", encoding='UTF-8', newline='') as f:
+with open(f"{outFileName}.json", "w", encoding='UTF-8', newline='') as f:
    json.dump(dataDict, f, ensure_ascii=False, indent=2)
+
+with open(f"{outFileName}.yaml", "w", encoding='UTF-8', newline='') as f:
+   yaml.dump(dataDict, f, allow_unicode=True)
