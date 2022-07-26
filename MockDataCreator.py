@@ -3,8 +3,10 @@ import os
 import random
 import json
 import yaml
-import hashlib as hl
+import uuid
+import string
 
+numberOfRecords = 500
 outFileName = 'results'
 dataDirName = 'Data'
 dataDir = os.path.join(os.getcwd(), dataDirName)
@@ -86,6 +88,24 @@ def CreateSurnames(sex, n):
 
 	return surnames
 
+def CreatePhoneNumber():
+	number = ""
+	number += str(random.randint(6,9))
+
+	for i in range(8):
+		number += str(random.randint(0,9))
+
+	return number
+
+def CreateEmailAddress():
+	hosts = ['o2.pl', 'gmail.com', 'wp.pl', 'onet.pl', 'gazeta.pl', 'yahoo.com', 'gov.pl']
+	
+	user = ''.join(random.choice(string.ascii_lowercase) for x in range(random.randint(4,10)))
+	host = hosts[random.randint(0, len(hosts) - 1)]
+
+	address = user + '@' + host
+	return address
+
 def CreateDataSet(n):
 	numM = random.randrange(n//4, (3*n)//4)
 	numF = n - numM
@@ -100,58 +120,115 @@ def CreateDataSet(n):
 	surnM = sorted(CreateSurnames('M', numM), key = lambda x: random.random() )
 	surnF = sorted(CreateSurnames('F', numF), key = lambda x: random.random() )
 
+	parents = []
+
+	# "parents": {
+	# 	"dad": {
+	# 		"name": "Tomek",
+	# 		"surname": "Miłosz",
+	# 		"phone": "606276662",
+	# 		"e-mail": "tomasz@milosz.pl"
+	# 	},
+	# 	"mom": {
+	# 		"name": "Marta",
+	# 		"surname": "Miłosz",
+	# 		"phone": "123123123",
+	# 		"e-mail": "marta@milosz.pl"
+	# 	},
+	# },
+
 	i = 0
 
 	for i in range(numF):
-		ha = hl.sha1((f"{nameF[i]}{surnF[i]}").encode()).hexdigest()
-		item = [ nameF[i], surnF[i], 'F', adr[i], city[i], ha]
+		ha = str(uuid.uuid4())
+		parents = {
+			"dad": {
+				"name": 	  	nameM[random.randint(0, len(nameM) - 1)],
+				"surname": 	surnF[i],
+				"phone": 	CreatePhoneNumber(),
+				"e-mail":	CreateEmailAddress()
+			},
+			"mom": {
+				"name": 	  	nameF[random.randint(0, len(nameF) - 1)],
+				"surname": 	surnF[i],
+				"phone": 	CreatePhoneNumber(),
+				"e-mail":	CreateEmailAddress()
+			},
+		}
+		item = [ nameF[i], surnF[i], 'F', adr[i], city[i], parents, ha]
 		data.append(item)
 
 	for j in range(numM):
-		ha = hl.sha1((f"{nameM[j]}{surnM[j]}").encode()).hexdigest()
-		item = [ nameM[j], surnM[j], 'M', adr[j], city[j], ha]
+		ha = str(uuid.uuid4())
+		parents = {
+			"dad": {
+				"name": 	  	nameM[random.randint(0, len(nameM) - 1)],
+				"surname": 	surnM[j],
+				"phone": 	CreatePhoneNumber(),
+				"e-mail":	CreateEmailAddress()
+			},
+			"mom": {
+				"name": 	  	nameF[random.randint(0, len(nameF) - 1)],
+				"surname": 	surnM[j],
+				"phone": 	CreatePhoneNumber(),
+				"e-mail":	CreateEmailAddress()
+			},
+		}
+		item = [ nameM[j], surnM[j], 'M', adr[j], city[j], parents, ha]
 		data.append(item)
 		i += 1
 
-	return data
+	return sorted(data, key = lambda x: random.random() )
 
-#  Creating mock data
-# ====================
-data = sorted(CreateDataSet(500), key = lambda x: random.random() )
+def GenerateCSV():
+	#  Creating mock data
+	# ====================
+	data = CreateDataSet(numberOfRecords)
 
-#  Writing data as csv
-# =====================
-fields = ['name', 'surname', 'gender', 'address', 'city', 'hash']
-with open(f"{outFileName}.csv", "w", encoding='UTF-8', newline='') as csvfile:
-    # creating a csv writer object 
-    csvwriter = csv.writer(csvfile) 
-        
-    # writing the fields 
-    csvwriter.writerow(fields) 
-        
-    # writing the data rows 
-    csvwriter.writerows(data)
+	#  Writing data as csv
+	# =====================
+	fields = ['name', 'surname', 'gender', 'address', 'city', 'hash']
+	with open(f"{outFileName}.csv", "w", encoding='UTF-8', newline='') as csvfile:
+	    # creating a csv writer object 
+	    csvwriter = csv.writer(csvfile) 
+	        
+	    # writing the fields 
+	    csvwriter.writerow(fields) 
+	        
+	    # writing the data rows 
+	    csvwriter.writerows(data)
 
-#  Creating dictionary
-# =====================
-dataDict = []
+def GenerateJson():
+	#  Creating mock data
+	# ====================
+	data = CreateDataSet(numberOfRecords)
 
-for i in range(len(data)):
-	person = {
-		"id": i+1,
-		"name": data[i][0],
-		"surname": data[i][1],
-		"gender": data[i][2],
-		"address": data[i][3],
-		"city": data[i][4],
-		"hash": data[i][5]
-	}
-	dataDict.append(person)
+	#  Creating dictionary
+	# =====================
+	dataDict = []
 
-#  Writing data as json
-# ======================
-with open(f"{outFileName}.json", "w", encoding='UTF-8', newline='') as f:
-   json.dump(dataDict, f, ensure_ascii=False, indent=2)
+	for i in range(len(data)):
+		person = {
+			"id": i+1,
+			"name": data[i][0],
+			"surname": data[i][1],
+			"gender": data[i][2],
+			"address": data[i][3],
+			"city": data[i][4],
+			"parents": data[i][5],
+			"hash": data[i][6]
+		}
+		dataDict.append(person)
 
-with open(f"{outFileName}.yaml", "w", encoding='UTF-8', newline='') as f:
-   yaml.dump(dataDict, f, allow_unicode=True)
+	#  Writing data as json
+	# ======================
+	with open(f"{outFileName}.json", "w", encoding='UTF-8', newline='') as f:
+	   json.dump(dataDict, f, ensure_ascii=False, indent=2)
+
+	#  Uncomment following 2 lines for YAML version:
+	# ===============================================
+	# with open(f"{outFileName}.yaml", "w", encoding='UTF-8', newline='') as f:
+	#    yaml.dump(dataDict, f, allow_unicode=True)
+
+
+GenerateJson()
