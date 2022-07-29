@@ -122,37 +122,27 @@ def CreateDataSet(n):
 
 	parents = []
 
-	# "parents": {
-	# 	"dad": {
-	# 		"name": "Tomek",
-	# 		"surname": "Miłosz",
-	# 		"phone": "606276662",
-	# 		"e-mail": "tomasz@milosz.pl"
-	# 	},
-	# 	"mom": {
-	# 		"name": "Marta",
-	# 		"surname": "Miłosz",
-	# 		"phone": "123123123",
-	# 		"e-mail": "marta@milosz.pl"
-	# 	},
-	# },
-
-	i = 0
 
 	for i in range(numF):
 		ha = str(uuid.uuid4())
+
+		surnameDad = surnF[i]
+
+		if surnameDad[-1] == "a":
+			surnameDad = surnameDad[:-1] + "i"
+
 		parents = {
 			"dad": {
 				"name": 	  	nameM[random.randint(0, len(nameM) - 1)],
-				"surname": 	surnF[i],
+				"surname": 	surnameDad,
 				"phone": 	CreatePhoneNumber(),
-				"e-mail":	CreateEmailAddress()
+				"email":		CreateEmailAddress()
 			},
 			"mom": {
 				"name": 	  	nameF[random.randint(0, len(nameF) - 1)],
 				"surname": 	surnF[i],
 				"phone": 	CreatePhoneNumber(),
-				"e-mail":	CreateEmailAddress()
+				"email":		CreateEmailAddress()
 			},
 		}
 		item = [ nameF[i], surnF[i], 'F', adr[i], city[i], parents, ha]
@@ -160,23 +150,30 @@ def CreateDataSet(n):
 
 	for j in range(numM):
 		ha = str(uuid.uuid4())
+
+		surnameMom = surnM[j]
+
+		if surnameMom[-1] == "i":
+			surnameMom = surnameMom[:-1] + "a"
+
+
 		parents = {
 			"dad": {
 				"name": 	  	nameM[random.randint(0, len(nameM) - 1)],
 				"surname": 	surnM[j],
 				"phone": 	CreatePhoneNumber(),
-				"e-mail":	CreateEmailAddress()
+				"email":		CreateEmailAddress()
 			},
 			"mom": {
 				"name": 	  	nameF[random.randint(0, len(nameF) - 1)],
-				"surname": 	surnM[j],
+				"surname": 	surnameMom,
 				"phone": 	CreatePhoneNumber(),
-				"e-mail":	CreateEmailAddress()
+				"email":		CreateEmailAddress()
 			},
 		}
 		item = [ nameM[j], surnM[j], 'M', adr[j], city[j], parents, ha]
 		data.append(item)
-		i += 1
+
 
 	return sorted(data, key = lambda x: random.random() )
 
