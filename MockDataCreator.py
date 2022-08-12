@@ -133,16 +133,16 @@ def CreateDataSet(n):
 
 		parents = {
 			"dad": {
-				"name": 	  	nameM[random.randint(0, len(nameM) - 1)],
+				"name": 	nameM[random.randint(0, len(nameM) - 1)],
 				"surname": 	surnameDad,
 				"phone": 	CreatePhoneNumber(),
-				"email":		CreateEmailAddress()
+				"email":	CreateEmailAddress()
 			},
 			"mom": {
-				"name": 	  	nameF[random.randint(0, len(nameF) - 1)],
+				"name": 	nameF[random.randint(0, len(nameF) - 1)],
 				"surname": 	surnF[i],
 				"phone": 	CreatePhoneNumber(),
-				"email":		CreateEmailAddress()
+				"email":	CreateEmailAddress()
 			},
 		}
 		item = [ nameF[i], surnF[i], 'F', adr[i], city[i], parents, ha]
@@ -159,16 +159,16 @@ def CreateDataSet(n):
 
 		parents = {
 			"dad": {
-				"name": 	  	nameM[random.randint(0, len(nameM) - 1)],
+				"name": 	nameM[random.randint(0, len(nameM) - 1)],
 				"surname": 	surnM[j],
 				"phone": 	CreatePhoneNumber(),
-				"email":		CreateEmailAddress()
+				"email":	CreateEmailAddress()
 			},
 			"mom": {
-				"name": 	  	nameF[random.randint(0, len(nameF) - 1)],
+				"name": 	nameF[random.randint(0, len(nameF) - 1)],
 				"surname": 	surnameMom,
 				"phone": 	CreatePhoneNumber(),
-				"email":		CreateEmailAddress()
+				"email":	CreateEmailAddress()
 			},
 		}
 		item = [ nameM[j], surnM[j], 'M', adr[j], city[j], parents, ha]
@@ -207,13 +207,13 @@ def GenerateJson():
 	for i in range(len(data)):
 		person = {
 			"id": i+1,
-			"name": data[i][0],
-			"surname": data[i][1],
-			"gender": data[i][2],
-			"address": data[i][3],
-			"city": data[i][4],
-			"parents": data[i][5],
-			"hash": data[i][6]
+			"name": 	data[i][0],
+			"surname": 	data[i][1],
+			"gender": 	data[i][2],
+			"address": 	data[i][3],
+			"city": 	data[i][4],
+			"parents": 	data[i][5],
+			"hash": 	data[i][6]
 		}
 		dataDict.append(person)
 
