@@ -2,14 +2,22 @@ import csv
 import os
 import random
 import json
-import yaml
 import uuid
 import string
+import argparse
 
-numberOfRecords = 500
-outFileName = 'results'
+parser = argparse.ArgumentParser(description="A simple mock personal data generator")
+
+parser.add_argument('-n', '--number', type=int, help='Number of records to create', required=False, default=500)
+parser.add_argument('-o', '--out', type=str, help='Name of the output file', required=False, default='results')
+
+parser.add_argument('--csv', action='store_true', help='Output in csv')
+
+args = parser.parse_args()
+
 dataDirName = 'Data'
 dataDir = os.path.join(os.getcwd(), dataDirName)
+
 
 def ReadFile(fileName, n):
 	rows = []
@@ -180,12 +188,12 @@ def CreateDataSet(n):
 def GenerateCSV():
 	#  Creating mock data
 	# ====================
-	data = CreateDataSet(numberOfRecords)
+	data = CreateDataSet(args.number)
 
 	#  Writing data as csv
 	# =====================
 	fields = ['name', 'surname', 'gender', 'address', 'city', 'hash']
-	with open(f"{outFileName}.csv", "w", encoding='UTF-8', newline='') as csvfile:
+	with open(f"{args.out}.csv", "w", encoding='UTF-8', newline='') as csvfile:
 	    # creating a csv writer object 
 	    csvwriter = csv.writer(csvfile) 
 	        
@@ -198,7 +206,7 @@ def GenerateCSV():
 def GenerateJson():
 	#  Creating mock data
 	# ====================
-	data = CreateDataSet(numberOfRecords)
+	data = CreateDataSet(args.number)
 
 	#  Creating dictionary
 	# =====================
@@ -219,13 +227,12 @@ def GenerateJson():
 
 	#  Writing data as json
 	# ======================
-	with open(f"{outFileName}.json", "w", encoding='UTF-8', newline='') as f:
+	with open(f"{args.out}.json", "w", encoding='UTF-8', newline='') as f:
 	   json.dump(dataDict, f, ensure_ascii=False, indent=2)
 
-	#  Uncomment following 2 lines for YAML version:
-	# ===============================================
-	# with open(f"{outFileName}.yaml", "w", encoding='UTF-8', newline='') as f:
-	#    yaml.dump(dataDict, f, allow_unicode=True)
 
+if args.csv:
+	GenerateCSV()
 
-GenerateJson()
+else:
+	GenerateJson()
