@@ -11,10 +11,14 @@ To generate 500 records in JSON simply open console in the scripts folder and ru
 
 ## Options
 Available options include:
-- `-n` or `--number`: number of records to create
-- `-o` or `--out`: name of the output file (defaults to `results`)
-- `--csv`: save the records in a `CSV` file instead of the default `JSON`
-
+  `-h`, `--help`   show this help message and exit
+  `-n` NUMBER    Number of records
+  `-f` FILENAME  Output filename
+  `--no-phone`   Include phone numbers?
+  `--no-email`   Include e-mail adresses?
+  `-pr`          Include parent data?
+  `--yaml`       Output YAML format as well
+  `--uuid`       Use UUID instead of a number for id?
 ## Records
 Each record generated contains:
 - `id`: an incremental number, starting at 1
@@ -34,28 +38,46 @@ Each record generated contains:
 ## Example
 An example of the record is shown below:
 ```JSON
+[
   {
-    "id": 1,
-    "name": "Lesław",
-    "surname": "Piasecki",
-    "gender": "M",
-    "address": "al. Jerozolimskie 195A",
+    "id": 0,
+    "name": "Janina",
+    "surname": "Król",
+    "gender": "F",
+    "address": "al. Jerozolimskie 212",
     "city": "Warszawa",
     "parents": {
       "dad": {
-        "name": "Ludwik",
-        "surname": "Piasecki",
-        "phone": "917748355",
-        "email": "olrtp@wp.pl"
+        "name": "Józef",
+        "surname": "Król"
       },
       "mom": {
-        "name": "Nina",
-        "surname": "Piasecka",
-        "phone": "705225779",
-        "email": "ckcqr@yahoo.com"
+        "name": "Zofia",
+        "surname": "Król"
       }
-    },
-    "hash": "906e6dc8-03bf-4797-b440-5ac9d025a562"
+    }
   },
-
+  {
+    "id": 1,
+    "name": "Sławomir",
+    "surname": "Zawadzki",
+    "gender": "M",
+    "address": "ul. Fraszki 11",
+    "city": "Warszawa",
+    "parents": {
+      "dad": {
+        "name": "Jarosław",
+        "surname": "Zawadzki",
+        "phone": "974611580",
+        "email": "rogapal@wp.pl"
+      },
+      "mom": {
+        "name": "Anna",
+        "surname": "Zawadzka",
+        "phone": "761576065",
+        "email": "wnyi@o2.pl"
+      }
+    }
+  }
+]
 ```

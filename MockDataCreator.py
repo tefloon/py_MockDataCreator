@@ -247,7 +247,7 @@ if __name__ == "__main__":
     )
 
     parser.add_argument(
-        "-f", type=str, default="result1.json", dest="fileName", help="Output filename"
+        "-f", type=str, default="result", dest="fileName", help="Output filename"
     )
 
     parser.add_argument(
