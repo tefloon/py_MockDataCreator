@@ -14,8 +14,8 @@ Available options include:
   `-h`, `--help`   show this help message and exit
   `-n` NUMBER    Number of records
   `-f` FILENAME  Output filename
-  `--no-phone`   Include phone numbers?
-  `--no-email`   Include e-mail adresses?
+  `--no-phone`   Exclude phone numbers
+  `--no-email`   Exclude e-mail adresses
   `-pr`          Include parent data?
   `--yaml`       Output YAML format as well
   `--uuid`       Use UUID instead of a number for id?
